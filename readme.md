@@ -9,15 +9,15 @@
 $ npm install --save data-uri-type
 ```
 
-
 ## Usage
 
 ```js
 const dataUriType = require('data-uri-type');
 
-dataUriType('data:image/png;base64,iVBORw0KGgo').then(console.log).catch(console.error);
+dataUriType('data:image/png;base64,iVBORw0KGgo')
+  .then(console.log)  // 'image/png'
+  .catch(console.error);
 ```
-
 
 ## API
 
