@@ -1,6 +1,6 @@
 {
   "name": "data-uri-type",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Get the mediatype of a data-uri",
   "license": "MIT",
   "repository": "hemanth/data-uri-type",
