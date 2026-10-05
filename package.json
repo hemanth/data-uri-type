@@ -1,6 +1,6 @@
 {
   "name": "data-uri-type",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get the mediatype of a data-uri",
   "license": "MIT",
   "repository": "hemanth/data-uri-type",
@@ -28,6 +28,6 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "ava": "^0.12.0"
+    "ava": "^8.0.1"
   }
 }

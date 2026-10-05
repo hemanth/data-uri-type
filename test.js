@@ -1,5 +1,5 @@
 import test from 'ava';
-import fn from './';
+import fn from './index.js';
 
 test('Must extract the mime-type of data-uri', async t => {
   const res = fn('data:image/png;base64,iVBORw0KGgo')
